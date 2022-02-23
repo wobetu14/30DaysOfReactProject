@@ -1,0 +1,44 @@
+.singlecat_card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    word-wrap: break-word;
+    box-shadow: 3px 3px 3px 3px grey;
+    transition: transform 450ms;
+}
+
+.singlecat_card:hover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    transform: scale(1);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.cat_image{
+    display: block;
+    object-fit:contain;
+    transition: transform 450ms;
+}
+
+.cat_image:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+} 
+
+.singlecat_card_body{
+    margin: 0px;
+    padding: 30px 15px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.5rem;
+    text-align: justify;
+}
