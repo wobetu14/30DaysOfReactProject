@@ -76,13 +76,10 @@ export class Cats extends Component {
         const lifespan_avg=lifespan_total/cat_lifespan.length;
 
         // Sort result data randomly
-
-        // function shuffleArray(array) {
           for (let i = data.length - 1; i > 0; i--) {
               const j = Math.floor(Math.random() * (i + 1));
               [data[i], data[j]] = [data[j], data[i]];
           }
-      // }
 
         this.setState({
           data:data,
