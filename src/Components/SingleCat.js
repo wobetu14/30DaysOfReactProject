@@ -6,7 +6,9 @@ export default function SingleCat({catDetails:{id, name, origin, temperament, de
   return (
     <div>
         <div className="singlecat_card">
-             <img src={image ? image.url: null} alt="" className='cat_image'/>
+          <div className='img_header'>
+          <img src={image ? image.url: null} alt="" className='cat_image'/>
+          </div>
               <div className='singlecat_card_body'>
                   <h2 className='cat_name'>{name}</h2>
                   <p className='cat_details'>
