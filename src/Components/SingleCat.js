@@ -5,6 +5,7 @@ import './SingleCat.css'
 export default function SingleCat({catDetails:{id, name, origin, temperament, description, image}}) {
   return (
     <div>
+      {/* <button className='button'>Button Class</button> */}
         <div className="singlecat_card">
           <div className='img_header'>
           <img src={image ? image.url: null} alt="" className='cat_image'/>

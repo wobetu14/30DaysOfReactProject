@@ -89,7 +89,7 @@ export class Cats extends Component {
       }
   render() {
     return (
-      <div className='cats__container'>
+      <div className='cats__container' style={{marginTop:"40px"}}>
         <h1 className='cats_header_title'>Cat's Paradise</h1>
         <h2 className='cats_totals'>There are <span style={{color:'rebeccapurple', fontSize:'46px'}}><u><strong>{this.state.data.length>0?this.state.data.length:0}</strong></u></span> cat breeds</h2>
         <h4 className='cats_averages'>On average a cat can weigh <span style={{color:'powderblue', fontSize:'35px'}}><u><strong>{this.state.avg_weight}</strong></u></span> kg and lives <span style={{color:'powderblue', fontSize:'35px'}}><u><strong>{this.state.avg_lifespan}</strong></u></span> years</h4>

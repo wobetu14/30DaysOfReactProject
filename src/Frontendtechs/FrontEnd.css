@@ -1,0 +1,34 @@
+.front-end{
+    background-color: #e0e0e0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.front-end-techs{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.logos{
+    cursor: pointer;
+    display: flex;
+}
+
+.logo{
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.skills{
+    color: white;
+}
+
+.skill{
+    background-color: #46C7C7;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+

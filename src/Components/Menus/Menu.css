@@ -1,0 +1,29 @@
+.menu_ul{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 26px;
+    height: 50px;
+    border-radius: 5px 10px; 
+    margin-bottom: 40px;
+}
+
+li{
+   padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: lightblue;
+    padding: 20px;
+    transition: all 0.2s ease-out;
+}
+
+a:hover{
+    border-bottom:  rgb(189, 5, 149) solid 5px;
+    color: white;
+    /* background-color: rgb(91, 6, 102); */
+    /* transform: scale(1.1); */
+}
