@@ -27,3 +27,8 @@ a:hover{
     /* background-color: rgb(91, 6, 102); */
     /* transform: scale(1.1); */
 }
+
+a:active{
+    border-bottom:  rgb(189, 5, 149) solid 5px;
+    color: white; 
+}

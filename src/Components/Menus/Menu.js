@@ -2,7 +2,7 @@ import React from 'react'
 import '../Menus/Menu.css'
 import {Link} from 'react-router-dom'
 
-function Menu() {
+function Menu({children, to}) {
   return (
     <div>
      <ul className='menu_ul'>
